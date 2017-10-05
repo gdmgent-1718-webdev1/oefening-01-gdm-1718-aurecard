@@ -12,7 +12,7 @@ $naam = "Aurélie Cardon";
 </head>
 <body>
     
-<h1><?php echo $naam ?></h1>
+<h1>Welkom <?php echo $naam ?></h1>
 
 </body>
 </html>
