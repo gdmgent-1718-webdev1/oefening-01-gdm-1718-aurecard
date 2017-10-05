@@ -2,18 +2,6 @@
 
 $naam = "Aurélie Cardon";
 
-$str1 = "hello ";
-$str2 = "world";
-
-$x = 7;
-$y = 10;
-
-$som = 7+10;
-$aftrekken = 7-10;
-$vermenigvuldigen = 7*10;
-$delen = 7/10;
-$rest = 10%7;
-
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,14 +13,6 @@ $rest = 10%7;
 <body>
     
 <h1><?php echo $naam ?></h1>
-
-<h3><?php echo $str1 ?><?php echo $str2 ?></h3>
-
-<p><?php echo $x ?> + <?php echo $y ?> = <?php echo $som ?></p>
-<p><?php echo $x ?> - <?php echo $y ?> = <?php echo $aftrekken ?></p>
-<p><?php echo $x ?> * <?php echo $y ?> = <?php echo $vermenigvuldigen ?></p>
-<p><?php echo $x ?> : <?php echo $y ?> = <?php echo $delen ?></p>
-<p><?php echo $x ?> % <?php echo $y ?> = <?php echo $rest ?></p>
 
 </body>
 </html>
